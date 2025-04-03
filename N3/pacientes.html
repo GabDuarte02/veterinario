@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pacientes</title>
+</head>
+<body> 
+    <div style="display: flex; position:absolute;">
+        <img src="Melhor Amigo (1).png" alt="logo" width="200" height="120" style="vertical-align: center; border: solid 2px blue; border-radius: 5px;">
+    </div>
+    <h1 class="tituloPrincipal">FICHA DO PACIENTE</h1>
+   
+
+    <div class="linhadebaixo menu">
+        <button type="menu" class="menu" style="z-index: 2;" onclick="location.href='index.html'">Início</button>
+        <button type="menu" class="menu" style="z-index: 1;" onclick="location.href='pacientes.html'">Pacientes</button>
+        <button type="menu" class="menu" style="z-index: 0;">Clientes</button>
+    </div>
+
+    <div class="linhadebaixo">
+        <form action="/processar" method="POST">
+            <label for="nome">Nome do Paciente</label>
+            <input type="text" id="nome" name="nome" placeholder="nome do paciente" required><br>
+
+            <label for="tipo">Tipo</label>
+            <input type="text" id="tipo" name="tipo" placeholder="tipo" required><br>
+
+            <label for="raça">Raça</label>
+            <input type="text" id="raça" name="raça" placeholder="raça" required><br>
+
+            <label for="nascimento">Nascimento</label>
+            <input type="date">
+            <button type="submit">Enviar</button>
+    </div>
+
+    <div class="rodape">
+        <p>Desenvolvido por: Erik Jhonata, Caio Henrique e Gabriel Santos</p>
+    </div>
+</body>
+</html>
