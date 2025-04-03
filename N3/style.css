@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(132, 212, 132);
+}
+
+p,
+h1,
+h2,
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1.tituloPrincipal {
+    text-align: center;
+    color: white;
+    background-color: hsla(90, 49%, 42%, 0.5);
+    border: solid hsla(90, 49%, 42%, 0.5);
+    border-radius: 10px;
+}
